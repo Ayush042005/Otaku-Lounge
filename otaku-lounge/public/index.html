@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime Chat Showcase</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Anime Sample</h1>
+      <p>Welcome to your anime showcase!</p>
+    </header>
+
+    <main>
+      <div class="card-wrapper">
+        <h2>Featured Anime</h2>
+        <div class="anime-card-container">
+
+          <div class="anime-card" data-anime-id="bunny-girl-senpai">
+            <img src="https://wallpapers.com/images/hd/rascal-does-not-dream-of-bunny-girl-senpai-ayhphpy1r4mbunfg.jpg" alt="Anime cover">
+            <div class="anime-card-content">
+              <div>
+                <h3>Rascal Does not Dream of a Bunny Girl</h3>
+                <p>Sakuta helps Mai, an actress invisible to others due to "Adolescence Syndrome."</p>
+              </div>
+              <div>
+                <div class="card-actions">
+                  <button class="tag chat-toggle-btn">Discuss</button>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-messages"></div>
+                    <div class="chat-input-area">
+                        <input type="text" class="chat-input" placeholder="Type a message...">
+                        <button class="chat-send-btn">Send</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="anime-card" data-anime-id="vinland-saga">
+            <img src="https://i0.wp.com/calxylian.com/wp-content/uploads/2022/05/Vinland-Saga-and-End-of-Prologue.webp" alt="Vinland Saga">
+            <div class="anime-card-content">
+              <div>
+                <h3>Vinland Saga</h3>
+                <p>Thorfinn, a Viking youth, redefines his path from hatred to peace.</p>
+              </div>
+              <div>
+                <div class="card-actions">
+                  <button class="tag chat-toggle-btn">Discuss</button>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-messages"></div>
+                    <div class="chat-input-area">
+                        <input type="text" class="chat-input" placeholder="Type a message...">
+                        <button class="chat-send-btn">Send</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2025 Anime Sample. All rights reserved.
+    </footer>
+  </div>
+  
+  <script src="client.js"></script>
+</body>
+</html>
